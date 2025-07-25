@@ -70,7 +70,7 @@ body {
 .buy-content {
     padding: 20px;
     background: radial-gradient(circle at 60% 40%, #00faff22 0%, #0a0a0f 100%);
-    height: 750px;
+    height: 780px;
     width: 700px;
     box-shadow: 0 0 20px rgb(26, 211, 218);
     border-radius: 5px;
@@ -235,7 +235,7 @@ img:hover {
   }
 
   .buy-content {
-    height: 880px;
+    height: 900px;
   }
 
   #menu-btn {
