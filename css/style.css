@@ -70,7 +70,7 @@ body {
 .buy-content {
     padding: 20px;
     background: radial-gradient(circle at 60% 40%, #00faff22 0%, #0a0a0f 100%);
-    height: 700px;
+    height: 750px;
     width: 700px;
     box-shadow: 0 0 20px rgb(26, 211, 218);
     border-radius: 5px;
@@ -235,7 +235,7 @@ img:hover {
   }
 
   .buy-content {
-    height: 800px;
+    height: 880px;
   }
 
   #menu-btn {
@@ -249,4 +249,38 @@ footer {
     font-size: 1rem;
     color: rgb(0, 228, 245);
     text-shadow: 0 0 20px rgb(0, 183, 255);
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #25D366;
+}
+
+.whatsapp-button i {
+    line-height: 60px;
+}
+
+.span {
+    text-shadow: 0 0 10px rgb(50, 173, 221);
+}
+
+.price {
+    font-weight: bolder;
+    color:#11e6e6
 }
